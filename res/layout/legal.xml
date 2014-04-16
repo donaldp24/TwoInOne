@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutLegal"
+                android:orientation="vertical"
+                android:layout_width="800px"
+                android:layout_height="480px"
+                android:background="@drawable/constant_bgsmall">
+
+    <ImageView
+            android:layout_width="118px"
+            android:layout_height="62px"
+            android:id="@+id/imageViewLegalTitle" android:layout_alignParentLeft="true" android:layout_marginLeft="38px"
+            android:layout_alignParentTop="true" android:layout_marginTop="100px"
+            android:background="@drawable/legal_title"/>
+    <ImageView
+            android:layout_width="652px"
+            android:layout_height="126px"
+            android:id="@+id/imageViewLegalExplain" android:layout_alignParentLeft="true" android:layout_marginLeft="42px"
+            android:layout_alignParentTop="true" android:layout_marginTop="212px"
+            android:background="@drawable/legal_explain"/>
+
+    <ImageButton
+            android:layout_width="118px"
+            android:layout_height="64px"
+            android:id="@+id/btnLegalBack"
+            android:layout_alignParentTop="true" android:layout_marginTop="408px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="16px"
+            android:background="@drawable/constant_btnback_normal"/>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutPrice"
+                android:orientation="vertical"
+                android:layout_width="800px"
+                android:layout_height="480px"
+                android:background="@drawable/constant_bgsmall">
+
+    <ImageView
+            android:layout_width="528px"
+            android:layout_height="94px"
+            android:id="@+id/imageViewPriceTitle" android:layout_alignParentLeft="true" android:layout_marginLeft="76px"
+            android:layout_alignParentTop="true" android:layout_marginTop="46px"
+            android:background="@drawable/price_title_1"/>
+    <ImageView
+            android:layout_width="104px"
+            android:layout_height="118px"
+            android:id="@+id/imageViewPriceVeryLittle" android:layout_alignParentLeft="true" android:layout_marginLeft="40px"
+            android:layout_alignParentTop="true" android:layout_marginTop="204px"
+            android:background="@drawable/price_verylittle"/>
+    <ImageView
+            android:layout_width="102px"
+            android:layout_height="106px"
+            android:id="@+id/imageViewPriceAllTheTime" android:layout_alignParentLeft="true" android:layout_marginLeft="670px"
+            android:layout_alignParentTop="true" android:layout_marginTop="218px"
+            android:background="@drawable/price_allthetime"/>
+
+
+    <!-- slide bar -->
+    <ImageView
+            android:layout_width="482px"
+            android:layout_height="84px"
+            android:id="@+id/imageViewPriceSlideBar" android:layout_alignParentLeft="true" android:layout_marginLeft="168px"
+            android:layout_alignParentTop="true" android:layout_marginTop="234px"
+            android:background="@drawable/price_slidebar"/>
+
+    <!-- position buttons -->
+    <ImageButton
+            android:layout_width="100px"
+            android:layout_height="160px"
+            android:id="@+id/btnPricePickPoint1" android:layout_alignParentLeft="true" android:layout_marginLeft="120px"
+            android:layout_alignParentTop="true" android:layout_marginTop="255px"
+            android:background="@android:color/transparent"
+            />
+    <ImageButton
+            android:layout_width="100px"
+            android:layout_height="160px"
+            android:id="@+id/btnPricePickPoint2" android:layout_alignParentLeft="true" android:layout_marginLeft="272px"
+            android:layout_alignParentTop="true" android:layout_marginTop="255px"
+            android:background="@android:color/transparent"
+            />
+    <ImageButton
+            android:layout_width="100px"
+            android:layout_height="160px"
+            android:id="@+id/btnPricePickPoint3" android:layout_alignParentLeft="true" android:layout_marginLeft="435px"
+            android:layout_alignParentTop="true" android:layout_marginTop="255px"
+            android:background="@android:color/transparent"
+            />
+    <ImageButton
+            android:layout_width="100px"
+            android:layout_height="160px"
+            android:id="@+id/btnPricePickPoint4" android:layout_alignParentLeft="true" android:layout_marginLeft="596px"
+            android:layout_alignParentTop="true" android:layout_marginTop="255px"
+            android:background="@android:color/transparent"
+            />
+
+    <!-- picker control -->
+    <ImageView
+            android:layout_width="100px"
+            android:layout_height="160px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="282px"
+            android:layout_alignParentTop="true" android:layout_marginTop="255px"
+            android:id="@+id/imageViewPriceSlidePicker" android:background="@drawable/price_slidepicker"/>
+    <ImageView
+            android:layout_width="106px"
+            android:layout_height="24px"
+            android:id="@+id/imageViewConstantHighlight1" android:layout_alignParentLeft="true" android:layout_marginLeft="352px"
+            android:layout_alignParentTop="true" android:layout_marginTop="430px"
+            android:background="@drawable/constant_highlight1"/>
+    <ImageButton
+            android:layout_width="118px"
+            android:layout_height="64px"
+            android:id="@+id/btnPriceContinue"
+            android:layout_alignParentTop="true" android:layout_marginTop="408px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="662px"
+            android:background="@drawable/constant_btncontinue_normal"/>
+    <!--<ImageButton
+            android:layout_width="75px"
+            android:layout_height="29px"
+            android:id="@+id/btnPriceLegal"
+            android:layout_alignParentTop="true" android:layout_marginTop="10px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="716px"
+            android:background="@drawable/constant_btnlegal_normal"/>-->
+</RelativeLayout>

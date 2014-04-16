@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutResult"
+                android:orientation="vertical"
+                android:layout_width="800px"
+                android:layout_height="480px"
+                android:background="@drawable/constant_bgsmall">
+    <ImageView
+            android:layout_width="800px"
+            android:layout_height="265px"
+            android:id="@+id/imageViewResultLeftBack" android:layout_alignParentLeft="true" android:layout_marginLeft="0px"
+            android:layout_alignParentTop="true" android:layout_marginTop="216px"
+            android:background="@drawable/constant_bgsmall_white"/>
+
+    <ImageView
+            android:layout_width="599px"
+            android:layout_height="168px"
+            android:id="@+id/imageViewResultMark" android:layout_alignParentLeft="true" android:layout_marginLeft="79px"
+            android:layout_alignParentTop="true" android:layout_marginTop="32px"
+            android:background="@drawable/result_slide_mark"/>
+
+    <ImageView
+            android:layout_width="72px"
+            android:layout_height="37px"
+            android:id="@+id/imageViewResultBorder" android:layout_alignParentLeft="true" android:layout_marginLeft="497px"
+            android:layout_alignParentTop="true" android:layout_marginTop="216px"
+            android:background="@drawable/result_border"/>
+
+    <ImageView
+            android:layout_width="232px"
+            android:layout_height="37px"
+            android:id="@+id/imageViewResultRightBack" android:layout_alignParentLeft="true" android:layout_marginLeft="569px"
+            android:layout_alignParentTop="true" android:layout_marginTop="216px"
+            android:background="@drawable/constant_bgsmall"/>
+
+    <ImageView
+            android:layout_width="620px"
+            android:layout_height="90px"
+            android:id="@+id/imageViewResultExplain" android:layout_alignParentLeft="true" android:layout_marginLeft="64px"
+            android:layout_alignParentTop="true" android:layout_marginTop="253px"
+            android:background="@drawable/result_slide_explain"/>
+
+    <ImageView
+            android:layout_width="410px"
+            android:layout_height="68px"
+            android:id="@+id/imageViewResultCpu" android:layout_alignParentLeft="true" android:layout_marginLeft="59px"
+            android:layout_alignParentTop="true" android:layout_marginTop="350px"
+            android:background="@drawable/result_slide_cpu"/>
+
+    <ImageButton
+            android:layout_width="160px"
+            android:layout_height="46px"
+            android:id="@+id/btnResultStartOver"
+            android:layout_alignParentTop="true" android:layout_marginTop="428px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="6px"
+            android:background="@drawable/constant_btnstartover_normal"/>
+
+    <ImageButton
+            android:layout_width="232px"
+            android:layout_height="62px"
+            android:id="@+id/btnResultSpecial"
+            android:layout_alignParentTop="true" android:layout_marginTop="358px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="532px"
+            android:background="@drawable/result_btnspecial_normal"/>
+
+    <ImageButton
+            android:layout_width="95px"
+            android:layout_height="49px"
+            android:id="@+id/btnResultLegal"
+            android:layout_alignParentTop="true" android:layout_marginTop="10px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="705px"
+            android:background="@drawable/constant_btnlegal_normal"/>
+
+</RelativeLayout>

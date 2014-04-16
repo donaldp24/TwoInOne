@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutAdvanced"
+                android:orientation="vertical"
+                android:layout_width="800px"
+                android:layout_height="480px"
+                android:background="@drawable/constant_bgsmall">
+    <ImageView
+            android:layout_width="414px"
+            android:layout_height="90px"
+            android:id="@+id/imageViewAdvancedTitle" android:layout_alignParentLeft="true" android:layout_marginLeft="60px"
+            android:layout_alignParentTop="true" android:layout_marginTop="46px"
+            android:background="@drawable/advanced_title"/>
+
+    <!-- start Buttons -->
+    <!--<ToggleButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedFirst"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="60px"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/advanced_btnfirst"/>
+
+    <ToggleButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedSecond"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="240px"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/advanced_btnsecond"/>
+
+    <ToggleButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedThird"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="422px"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/advanced_btnthird"/>
+
+    <ToggleButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedForth"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="604px"
+            android:textOn=""
+            android:textOff=""
+            android:background="@drawable/advanced_btnforth"/> -->
+    <com.general.mediaplayer.TwoInOne.SelectButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedFirst"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="60px"
+            android:background="@drawable/advanced_btnfirst_normal"/>
+
+    <com.general.mediaplayer.TwoInOne.SelectButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedSecond"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="240px"
+            android:background="@drawable/advanced_btnsecond_normal"/>
+
+    <com.general.mediaplayer.TwoInOne.SelectButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedThird"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="422px"
+            android:background="@drawable/advanced_btnthird_normal"/>
+
+    <com.general.mediaplayer.TwoInOne.SelectButton
+            android:layout_width="136px"
+            android:layout_height="188px"
+            android:id="@+id/btnAdvancedForth"
+            android:layout_alignParentTop="true" android:layout_marginTop="174px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="604px"
+            android:background="@drawable/advanced_btnforth_normal"/>
+    <!-- end Buttons -->
+
+    <!-- tap hint  -->
+    <Button
+            android:layout_width="683px"
+            android:layout_height="39px"
+            android:id="@+id/btnAdvancedConstTapHint" android:layout_alignParentLeft="true" android:layout_marginLeft="60px"
+            android:layout_alignParentTop="true" android:layout_marginTop="332px"
+            android:background="@drawable/constant_btntaphint_normal"/>
+
+    <!-- select as many  -->
+    <ImageView
+            android:layout_width="210px"
+            android:layout_height="20px"
+            android:id="@+id/imageViewAdvancedSelectManyTex" android:layout_alignParentLeft="true" android:layout_marginLeft="306px"
+            android:layout_alignParentTop="true" android:layout_marginTop="382px"
+            android:background="@drawable/constant_selectmanytext"/>
+
+    <!-- common controls (highlight, back, continue, legal) -->
+    <ImageView
+            android:layout_width="106px"
+            android:layout_height="24px"
+            android:id="@+id/imageViewConstantHighlight3" android:layout_alignParentLeft="true" android:layout_marginLeft="352px"
+            android:layout_alignParentTop="true" android:layout_marginTop="430px"
+            android:background="@drawable/constant_highlight3"/>
+    <ImageButton
+            android:layout_width="118px"
+            android:layout_height="64px"
+            android:id="@+id/btnAdvancedBack"
+            android:layout_alignParentTop="true" android:layout_marginTop="408px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="16px"
+            android:background="@drawable/constant_btnback_normal"/>
+    <ImageButton
+            android:layout_width="118px"
+            android:layout_height="64px"
+            android:id="@+id/btnAdvancedContinue"
+            android:layout_alignParentTop="true" android:layout_marginTop="408px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="662px"
+            android:background="@drawable/constant_btncontinue_normal"/>
+    <!--<ImageButton
+            android:layout_width="75px"
+            android:layout_height="29px"
+            android:id="@+id/btnAdvancedLegal"
+            android:layout_alignParentTop="true" android:layout_marginTop="10px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="716px"
+            android:background="@drawable/constant_btnlegal_normal"/>-->
+</RelativeLayout>

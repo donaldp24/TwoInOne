@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutSpecial"
+                android:orientation="vertical"
+                android:layout_width="800px"
+                android:layout_height="480px"
+                android:background="@drawable/constant_bgsmall">
+    <ImageView
+            android:layout_width="714px"
+            android:layout_height="62px"
+            android:id="@+id/imageViewSpecialTitle" android:layout_alignParentLeft="true" android:layout_marginLeft="39px"
+            android:layout_alignParentTop="true" android:layout_marginTop="31px"
+            android:background="@drawable/special_title"/>
+
+    <ImageView
+            android:layout_width="494px"
+            android:layout_height="302px"
+            android:id="@+id/imageViewSpecialDirection" android:layout_alignParentLeft="true" android:layout_marginLeft="190px"
+            android:layout_alignParentTop="true" android:layout_marginTop="115px"
+            android:background="@drawable/special_direction"/>
+
+    <ImageButton
+            android:layout_width="160px"
+            android:layout_height="46px"
+            android:id="@+id/btnSpecialStartOver"
+            android:layout_alignParentTop="true" android:layout_marginTop="428px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="6px"
+            android:background="@drawable/constant_btnstartoverwhite_normal"/>
+
+</RelativeLayout>

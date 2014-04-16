@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutStart"
+              android:orientation="vertical"
+              android:layout_width="800px"
+              android:layout_height="480px"
+              android:background="@android:color/background_light">
+
+    <ImageView
+            android:layout_width="320px"
+            android:layout_height="460px"
+            android:id="@+id/imageViewPC"
+            android:background="@drawable/start_pc" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0px" android:layout_alignParentBottom="false" android:layout_marginTop="18px"
+            android:layout_alignParentTop="true"/>
+    <ImageView
+            android:layout_width="466px"
+            android:layout_height="106px"
+            android:id="@+id/imageViewTitle"
+            android:background="@drawable/start_title"
+            android:layout_alignParentTop="true" android:layout_marginTop="120px" android:layout_marginLeft="320px"
+            android:layout_alignParentLeft="true"/>
+    <ImageButton
+            android:layout_width="238px"
+            android:layout_height="63px"
+            android:id="@+id/btnStart"
+            android:layout_alignParentTop="true" android:layout_marginTop="230px"
+            android:layout_alignParentLeft="true" android:layout_marginLeft="310px"
+            android:background="@drawable/start_btnstart_normal"/>
+
+</RelativeLayout>
+
