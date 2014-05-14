@@ -21,10 +21,10 @@ public class LegalActivity extends BaseActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LegalActivity.this, ResultActivity.class);
-                startActivity(intent);
-                overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                //Intent intent = new Intent(LegalActivity.this, ResultActivity.class);
+                //startActivity(intent);
                 finish();
+                overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
             }
         });
 

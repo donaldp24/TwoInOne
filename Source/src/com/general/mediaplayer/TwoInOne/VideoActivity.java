@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import android.widget.VideoView;
 import android.net.Uri;
 import android.media.MediaPlayer;
+import com.general.mediaplayer.Utils.CsrActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,7 +18,7 @@ import android.media.MediaPlayer;
  * Time: 11:13 PM
  * To change this template use File | Settings | File Templates.
  */
-public class VideoActivity extends Activity {
+public class VideoActivity extends CsrActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.video);

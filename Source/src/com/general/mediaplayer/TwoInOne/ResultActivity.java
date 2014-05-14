@@ -123,7 +123,7 @@ public class ResultActivity extends BaseActivity {
                 Intent intent = new Intent(ResultActivity.this, LegalActivity.class);
                 startActivity(intent);
                 overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
-                finish();
+                //finish();
             }
         });
 
